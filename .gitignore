@@ -1,7 +1,4 @@
 ﻿# Ignore large data files
-*.pkl
-*.h5
-*.npy
 *.csv
 dataset/
 data/
