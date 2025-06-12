@@ -64,9 +64,3 @@ if movies is not None:
                 
         except Exception as e:
             st.error(f"Error: {str(e)}")
-
-# Add some debug info
-# with st.expander("Debug Info"):
-#     st.write(f"Total movies: {len(movies) if movies is not None else 0}")
-#     if movies is not None:
-#         st.write("Sample data:", movies[['title', 'genre']].head(3))
