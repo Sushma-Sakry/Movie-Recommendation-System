@@ -1,9 +1,11 @@
-# Exclude specific large files but keep folders
-dataset/similarity.pkl
+﻿# Ignore large data files
 *.pkl
 *.h5
 *.npy
+*.csv
+dataset/
+data/
 
-# Or to exclude all files in dataset folder but keep the folder:
-# dataset/*
-# !dataset/.gitkeep
+# Keep empty folders
+!dataset/.gitkeep
+!data/.gitkeep
