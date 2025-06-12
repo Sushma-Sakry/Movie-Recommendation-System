@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import linear_kernel
 
 # Configuration
 st.set_page_config(layout="wide")
-st.title("🎬 Movie Recommender System")
+st.title("🎬 Movie Recommendation System")
 
 # Load data
 @st.cache_data
